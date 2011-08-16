@@ -32,12 +32,24 @@
     }
     var map = new google.maps.Map(document.getElementById("mapa_ubicacion"), myOptions);
     
+    var contentString = '<div id="content">'+
+		'KAPS<br />'+
+		'Carretera Provincial, 12<br />'+
+		'36204 Vigo'+
+        '</div>';
+    
+    var infowindow = new google.maps.InfoWindow({
+        content: contentString
+    });
+    
     var marker = new google.maps.Marker({
     	position: myLatlng,
         map: map,
         title:"KAPS"
     }); 
-
+    google.maps.event.addListener(marker, 'click', function() {
+      infowindow.open(map,marker);
+    });
   }    
 
 </script>  
@@ -99,10 +111,12 @@
 				</article>
 				<article class="ubicacion">
 					<h3 class="cabecera">Ubicación</h3>
+					<div id="mapa_ubicacion">
+					
+					</div>
 					<aside>
-						<span class="kaps">KAPS</span><br />Carretera Provincial, 12<br />36204 Vigo
+					
 					</aside>
-					<div id="mapa_ubicacion"></div>
 				</article>								
 			</section>
 		</div>
