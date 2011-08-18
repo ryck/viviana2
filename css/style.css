@@ -571,7 +571,7 @@ td { vertical-align: top; }
 		text-align: right;
 		font-size: 80%;
 	}
-	.pie a {
+	.pie a, header a {
 		color: #333;
 		text-decoration: none;
 	}
