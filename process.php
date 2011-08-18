@@ -42,7 +42,9 @@ if( isset($_POST) ){
     //send email if all is ok
     if($formok){
         $headers = "De: {$email}" . "\r\n";
-        $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+        $headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
+        $headers .= "From: $name <$email>". "\r\n";
+        $headers .= "Reply-To: $name <$email>". "\r\n";
 
         $emailbody = "<p>Nuevo mensaje</p>
                       <p><strong>Nombre: </strong> {$name} </p>
