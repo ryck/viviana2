@@ -49,7 +49,7 @@
 	<header class="front row">
 		<div class="three columns" id="logo">
 			<figure>
-				<img src="img/logo.png" alt="Viviana Villamayor" />
+				<a href="http://vivianavillamayor.com"><img src="img/logo.png" alt="Viviana Villamayor" /></a>
 			</figure>
 		</div>	
 		<div class="twelve columns slogan offset-by-one">
@@ -63,11 +63,11 @@
 		<div class="three columns" id="sidebar">
 			<nav>
 				<ul>
-					<li><a class="active" href="index.html">Inicio</a></li>
-					<li><a href="terapia.html">Terapia</a></li>
-					<li><a href="areas.html">Áreas</a></li>
-					<li><a href="cv.html">Currículum</a></li>
-					<li><a href="contacto.html">Contacto</a></li>
+					<li><a class="active" href="home">Inicio</a></li>
+					<li><a href="terapia">Terapia</a></li>
+					<li><a href="areas">Áreas</a></li>
+					<li><a href="cv">Currículum</a></li>
+					<li><a href="contacto">Contacto</a></li>
 				</ul>
 			</nav>
 			<aside>

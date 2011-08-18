@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Viviana Villamayor - Psicóloga - Terapia</title>
+  <title>Viviana Villamayor - Psicóloga - Áreas</title>
   <meta name="description" content="viviana c. villamayor fleitas, psicologa, vigo">
   <meta name="author" content="http://ryck.me/">
 
@@ -26,7 +26,7 @@
 	<header class="front row">
 		<div class="three columns" id="logo">
 			<figure>
-				<img src="img/logo.png" alt="Viviana Villamayor" />
+				<a href="http://vivianavillamayor.com"><img src="img/logo.png" alt="Viviana Villamayor" /></a>
 			</figure>
 		</div>	
 		<div class="twelve columns slogan offset-by-one">
@@ -40,11 +40,11 @@
 		<div class="three columns" id="sidebar">
 			<nav>
 				<ul>
-					<li><a href="index.html">Inicio</a></li>
-					<li><a class="active" href="terapia.html">Terapia</a></li>
-					<li><a href="areas.html">Áreas</a></li>
-					<li><a href="cv.html">Currículum</a></li>
-					<li><a href="contacto.html">Contacto</a></li>
+					<li><a href="home">Inicio</a></li>
+					<li><a href="terapia">Terapia</a></li>
+					<li><a class="active" href="areas">Áreas</a></li>
+					<li><a href="cv">Currículum</a></li>
+					<li><a href="contacto">Contacto</a></li>
 				</ul>
 			</nav>
 			<aside>
@@ -56,16 +56,37 @@
 
 			<section>
 				<article>
-					<h3 class="cabecera">¿Como podemos ayudarle?</h3>
-
-	        <p>El propósito de la psicoterapia es el de mejorar la calidad de vida de la persona que acude a
-	        consulta a través de un cambio en su conducta, actitudes, pensamientos o afectos.</p>
+					<h3 class="cabecera">¿En que podemos ayudarle?</h3>
+	        <p>Desde la psicología se pueden tratar un sinfín de problemáticas.</p>
+	        <p>Algunas de ellas son:</p>
 	
-	        <p>La psicoterapia como un conjunto de tratamientos específicos ha mostrado en numerosos
-	        estudios ser la alternativa más eficaz.</p>
-	
-	        <p>Por eso desde nuestra consulta trataremos cualquier problemática que tenga con las mejores
-	        técnicas y tratamiento que han mostrado efectividad y eficacia.</p>
+	        <dl id="areas">
+		        <dt>Trastornos del estado de ánimo</dt>
+		        <dd>depresión, tristeza, autoestima baja…</dd>
+		
+		        <dt>Trastornos de ansiedad</dt>
+		        <dd>nervios, miedos, fobias, agorafobias, pánico, timidez…</dd>
+		
+		        <dt>Terapia de pareja</dt>
+		        <dd>problemas de comunicación, resolución de conflictos, problemas de confianza y celos…</dd>
+		
+		        <dt>Terapia sexual</dt>
+		        <dd>eyaculación precoz, eyaculación retardada, vaginismo, falta de deseo o apetito sexual, problemas para alcanzar el orgasmo…</dd>
+		
+		        <dt>Adicciones</dt>
+		        <dd>al juego (bingo, máquinas), al tabaco, al trabajo, a internet, a videojuegos…</dd>
+		
+		        <dt>Trastornos de la alimentación:</dt>
+		        <dd>anorexia, bulimia, comer compulsivo…</dd>
+		
+		        <dt>Trastornos del sueño</dt>
+		        <dd>insomnio, somnolencia, despertares nocturnos…</dd>
+		
+		        <dt>Terapia del duelo</dt>
+		        <dd>ante la pérdida de seres queridos, cambios en la vida…</dd>
+		
+		        <dt>Terapia de Habilidades Sociales</dt>
+	        <dl>
 				</article>
 			</section>
 		</div>

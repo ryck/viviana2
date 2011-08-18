@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Viviana Villamayor - Psicóloga - Áreas</title>
+  <title>Viviana Villamayor - Psicóloga - Currículum</title>
   <meta name="description" content="viviana c. villamayor fleitas, psicologa, vigo">
   <meta name="author" content="http://ryck.me/">
 
@@ -26,7 +26,7 @@
 	<header class="front row">
 		<div class="three columns" id="logo">
 			<figure>
-				<img src="img/logo.png" alt="Viviana Villamayor" />
+				<a href="http://vivianavillamayor.com"><img src="img/logo.png" alt="Viviana Villamayor" /></a>
 			</figure>
 		</div>	
 		<div class="twelve columns slogan offset-by-one">
@@ -40,11 +40,11 @@
 		<div class="three columns" id="sidebar">
 			<nav>
 				<ul>
-					<li><a href="index.html">Inicio</a></li>
-					<li><a href="terapia.html">Terapia</a></li>
-					<li><a class="active" href="areas.html">Áreas</a></li>
-					<li><a href="cv.html">Currículum</a></li>
-					<li><a href="contacto.html">Contacto</a></li>
+					<li><a href="home">Inicio</a></li>
+					<li><a href="terapia">Terapia</a></li>
+					<li><a href="areas">Áreas</a></li>
+					<li><a class="active" href="cv">Currículum</a></li>
+					<li><a href="contacto">Contacto</a></li>
 				</ul>
 			</nav>
 			<aside>
@@ -56,37 +56,22 @@
 
 			<section>
 				<article>
-					<h3 class="cabecera">¿En que podemos ayudarle?</h3>
-	        <p>Desde la psicología se pueden tratar un sinfín de problemáticas.</p>
-	        <p>Algunas de ellas son:</p>
+					<h3 class="cabecera">Formación</h3>
+
+	        <p>Licenciada en Psicología (orientación clínica) por la Universidad de Santiago de Compostela.</p>
 	
-	        <dl id="areas">
-		        <dt>Trastornos del estado de ánimo</dt>
-		        <dd>depresión, tristeza, autoestima baja…</dd>
-		
-		        <dt>Trastornos de ansiedad</dt>
-		        <dd>nervios, miedos, fobias, agorafobias, pánico, timidez…</dd>
-		
-		        <dt>Terapia de pareja</dt>
-		        <dd>problemas de comunicación, resolución de conflictos, problemas de confianza y celos…</dd>
-		
-		        <dt>Terapia sexual</dt>
-		        <dd>eyaculación precoz, eyaculación retardada, vaginismo, falta de deseo o apetito sexual, problemas para alcanzar el orgasmo…</dd>
-		
-		        <dt>Adicciones</dt>
-		        <dd>al juego (bingo, máquinas), al tabaco, al trabajo, a internet, a videojuegos…</dd>
-		
-		        <dt>Trastornos de la alimentación:</dt>
-		        <dd>anorexia, bulimia, comer compulsivo…</dd>
-		
-		        <dt>Trastornos del sueño</dt>
-		        <dd>insomnio, somnolencia, despertares nocturnos…</dd>
-		
-		        <dt>Terapia del duelo</dt>
-		        <dd>ante la pérdida de seres queridos, cambios en la vida…</dd>
-		
-		        <dt>Terapia de Habilidades Sociales</dt>
-	        <dl>
+	        <p>Máster en Psicología Clínica y de la Salud en el Instituto de Estudios Psicológicos Superiores. Barcelona.</p>
+	
+	        <p>Cursos:</p>
+	
+	        <ul class="disc">
+		        <li>Competencias para el ejercicio profesional del psicólogo.</li>
+		        <li>Intervención con perspectiva de género en mujeres víctimas de violencia machista.</li>
+		        <li>Trastornos de la conducta alimentaria.</li>
+		        <li>Trastornos obsesivo compulsivo.</li>
+		        <li>Adicciones sin drogas: características y vías de intervención.</li>
+	        </ul>
+	
 				</article>
 			</section>
 		</div>
