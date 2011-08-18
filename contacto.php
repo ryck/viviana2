@@ -7,9 +7,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title></title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title>Viviana Villamayor - Psicóloga</title>
+  <meta name="description" content="viviana c. villamayor fleitas, psicologa, vigo">
+  <meta name="author" content="http://ryck.me/">
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
@@ -26,30 +26,18 @@
   
     var myLatlng = new google.maps.LatLng(42.227736,-8.718976);
     var myOptions = {
-      zoom: 14,
+      zoom: 12,
       center: myLatlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
-    var map = new google.maps.Map(document.getElementById("mapa_ubicacion"), myOptions);
-    
-    var contentString = '<div id="content">'+
-		'KAPS<br />'+
-		'Carretera Provincial, 12<br />'+
-		'36204 Vigo'+
-        '</div>';
-    
-    var infowindow = new google.maps.InfoWindow({
-        content: contentString
-    });
+    var map = new google.maps.Map(document.getElementById("mapa_contacto"), myOptions);
     
     var marker = new google.maps.Marker({
     	position: myLatlng,
         map: map,
         title:"KAPS"
     }); 
-    google.maps.event.addListener(marker, 'click', function() {
-      infowindow.open(map,marker);
-    });
+
   }    
 
 </script>  
@@ -61,7 +49,7 @@
 	<header class="front row">
 		<div class="three columns" id="logo">
 			<figure>
-				<img src="img/logo.png" alt="Viviana Villamayor" />
+				<a href="http://vivianavillamayor.com"><img src="img/logo.png" alt="Viviana Villamayor" /></a>
 			</figure>
 		</div>	
 		<div class="twelve columns slogan offset-by-one">
@@ -75,11 +63,11 @@
 		<div class="three columns" id="sidebar">
 			<nav>
 				<ul>
-					<li><a class="active" href="index.html">Inicio</a></li>
-					<li><a href="terapia.html">Terapia</a></li>
-					<li><a href="areas.html">Áreas</a></li>
-					<li><a href="cv.html">Currículum</a></li>
-					<li><a href="contacto.html">Contacto</a></li>
+					<li><a href="home">Inicio</a></li>
+					<li><a href="terapia">Terapia</a></li>
+					<li><a href="areas">Áreas</a></li>
+					<li><a href="cv">Currículum</a></li>
+					<li><a class="active" href="contacto">Contacto</a></li>
 				</ul>
 			</nav>
 			<aside>
@@ -89,41 +77,66 @@
 		
 		<div class="twelve columns content offset-by-one">
 
-			<section class="eight columns alpha">
-				<article>
-					<h3 class="cabecera">¿Cómo podemos ayudarle?</h3>
-					<p>A lo largo de la vida se presentan situaciones claras y evidentes que provocan malestar en las personas, como pueden ser problemas económicos, de pareja, familiares, de salud, laborales, etc.</p> 
-					
-					<p>En otras ocasiones no hay evidencias tan claras que expliquen por qué no nos sentimos bien, pero notamos que la vida no se nos está dando como desearíamos. Puede que te sientas sin ánimo, triste, con mucha preocupación, te cueste relacionarte, tengas problemas de sueño, de apetito, problemas al relacionarte con las demás personas, etc. Todo ese malestar ocurre por algo cuya causa desconoces.</p> 
-					
-					<p>Desde la psicología y, en concreto, desde la psicoterapia, te ayudaremos a conocer la causa de dicho malestar, a saber lo que te ocurre para que puedas recibir un tratamiento adecuado y solucionar dichas dificultades, tanto las pasadas como las presentes y las futuras. </p>
-					
-					<p>Nuestro objetivo es que consigas un mayor bienestar y calidad de vida.</p>
-				</article>
-			</section>
-			<section  class="four columns omega">
-				<article class="promociones">
-					<h3 class="cabecera">Promociones</h3>
-					<ul>
-						<li>25% de descuento en la primera y segunda consulta.</li>
-						<li>Paquetes promocionales tanto individuales como familiares y/o grupales con un 20% de descuento.</li>
-					</ul>
-				</article>
-				<article class="ubicacion">
-					<h3 class="cabecera">Ubicación</h3>
-					<div id="mapa_ubicacion">
-					
-					</div>
+			<section class="six columns alpha">
+				<article class="ubicacion"">
+          <h3 class="cabecera">¿Donde estamos?</h3>
 					<aside>
-					
-					</aside>
-				</article>								
+  					<a href="http://kaps.es" class="kaps">KAPS</a><br />Carretera Provincial, 12<br />36204 Vigo
+  				</aside>
+
+          <div id="mapa_contacto"></div>
+				</article>		
+								
+			</section>
+			<section  class="six columns omega">
+				<article id="contact-form">
+					<h3 class="cabecera">¿Alguna consulta?</h3>
+            <?php
+			        //init variables
+			        $cf = array();
+			        $sr = false;
+			
+			        if(isset($_SESSION['cf_returndata'])){
+				        $cf = $_SESSION['cf_returndata'];
+			         	$sr = true;
+			        }
+                    ?>
+                    <ul id="errors" class="<?php echo ($sr && !$cf['form_ok']) ? 'visible' : ''; ?>">
+                        <li id="info">Hubo algún problema con el formulario de contacto:</li>
+                        <?php 
+				        if(isset($cf['errors']) && count($cf['errors']) > 0) :
+					        foreach($cf['errors'] as $error) :
+				        ?>
+                        <li><?php echo $error ?></li>
+                        <?php
+					        endforeach;
+				        endif;
+				        ?>
+                    </ul>
+                    <p id="success" class="<?php echo ($sr && $cf['form_ok']) ? 'visible' : ''; ?>">¡Gracias por ponerse en contacto con nosotros!</p>
+                    <form method="post" action="process.php" id="main-contact-form">
+                        <label for="name">Nombre: <span class="required">*</span></label>
+                        <input type="text" id="nombre" name="nombre" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['name'] : '' ?>" placeholder="Nombre" required autofocus />
+                        
+                        <label for="email">Correo electrónico: <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['email'] : '' ?>" placeholder="usuario@dominio.es" required />
+                                     
+                        <label for="message">Mensaje: <span class="required">*</span></label>
+                        <textarea id="mensaje" name="mensaje"><?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['message'] : '' ?></textarea>
+                        
+                        
+                        <input type="submit" value="Enviar" id="submit" />
+                    </form>
+                    <span id="loading"></span>
+                    <?php if ($sr) unset($_SESSION['cf_returndata']); ?>
+				</article>
+							
 			</section>
 		</div>
 		
 			
     </div>
-    <footer class="sixteen columns pie offset-by-one">
+    <footer class="twelve columns pie offset-by-four">
 	    <br />
 	    <hr class="carved" />
     	<a href="mailto:info@vivianavillamayor.com">info@vivianavillamayor.com</a> &mdash; T: 902 810 210 &mdash; M: 622 484 945
