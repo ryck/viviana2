@@ -527,9 +527,9 @@ td { vertical-align: top; }
 		font-weight: bold;
 		text-decoration: none;
 
-    -webkit-transition: all .2s;
-    -moz-transition: all .2s;
-    -o-transition: all .2s;   
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;   
 	}
 	#sidebar ul a.active {
 		border-bottom: 3px solid #F48E06;
@@ -608,18 +608,41 @@ td { vertical-align: top; }
     -webkit-transform: translate(1px,0);
     -moz-transform: translate(1px, 0);
     -o-transform: translate(1px,0);
+    transform: translate(1px,0);
           }
           100% {
     -webkit-transform: translate(-1px,0);
     -moz-transform: translate(-1px, 0);
     -o-transform: translate(-1px,0);
+    transform: translate(-1px,0);
           }
   }
+  @-moz-keyframes ringing {
+          0% {
+    -webkit-transform: translate(1px,0);
+    -moz-transform: translate(1px, 0);
+    -o-transform: translate(1px,0);
+    transform: translate(1px,0);
+          }
+          100% {
+    -webkit-transform: translate(-1px,0);
+    -moz-transform: translate(-1px, 0);
+    -o-transform: translate(-1px,0);
+    transform: translate(-1px,0);
+          }
+  }  
 	.slogan h3 span:hover img {
      -webkit-animation: ringing .1s 0 10 alternate;
-    -webkit-transition: all .2s linear;
-    -moz-transition: all .2s linear;
-    -o-transition: all .2s linear;     
+    -moz-animation-name: ringing;
+    -moz-animation-duration: 0.1s;
+    -moz-animation-delay: 0;
+    -moz-animation-iteration-count: 10;
+    -moz-animation-direction: alternate;
+ 
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -o-transition: all .1s linear;     
+    transition: all .1s linear;
      
   }
   
