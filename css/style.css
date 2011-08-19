@@ -527,6 +527,9 @@ td { vertical-align: top; }
 		font-weight: bold;
 		text-decoration: none;
 
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;   
 	}
 	#sidebar ul a.active {
 		border-bottom: 3px solid #F48E06;
