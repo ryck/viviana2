@@ -596,8 +596,30 @@ td { vertical-align: top; }
 		font-weight: bold;
 		color: #2670B8;
 	}
+	ul.cursos li {
+	  margin-bottom: 0.5em;
+	}
 	
-	
+  @-webkit-keyframes ringing {
+          0% {
+    -webkit-transform: translate(1px,0);
+    -moz-transform: translate(1px, 0);
+    -o-transform: translate(1px,0);
+          }
+          100% {
+    -webkit-transform: translate(-1px,0);
+    -moz-transform: translate(-1px, 0);
+    -o-transform: translate(-1px,0);
+          }
+  }
+	.slogan h3 span:hover img {
+     -webkit-animation: ringing .1s 0 10 alternate;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;     
+     
+  }
+  
 	hr.faded {
 	  clear: both; 
 	  float: none; 

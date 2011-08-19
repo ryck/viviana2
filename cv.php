@@ -64,7 +64,7 @@
 	
 	        <p>Cursos:</p>
 	
-	        <ul class="disc">
+	        <ul class="disc cursos">
 		        <li>Competencias para el ejercicio profesional del psicólogo.</li>
 		        <li>Intervención con perspectiva de género en mujeres víctimas de violencia machista.</li>
 		        <li>Trastornos de la conducta alimentaria.</li>
