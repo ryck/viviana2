@@ -79,7 +79,7 @@
 
 			<section class="six columns alpha">
 				<article class="ubicacion"">
-          <h3 class="cabecera">¿Donde estamos?</h3>
+          <h3 class="cabecera">¿Dónde estamos?</h3>
 					<aside>
   					<a href="http://kaps.es" class="kaps">KAPS</a><br />Carretera Provincial, 12<br />36204 Vigo
   				</aside>

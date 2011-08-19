@@ -306,7 +306,7 @@ FileETag None
 <IfModule mod_rewrite.c>
   Options +FollowSymlinks
   RewriteEngine on
-  RewriteBase /beta
+  RewriteBase /
 
   RewriteRule ^home$ index.php [L]
   RewriteCond %{REQUEST_FILENAME} !-d

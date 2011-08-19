@@ -56,7 +56,7 @@
 
 			<section>
 				<article>
-					<h3 class="cabecera">¿Como podemos ayudarle?</h3>
+					<h3 class="cabecera">¿Cómo podemos ayudarle?</h3>
 
 	        <p>El propósito de la psicoterapia es el de mejorar la calidad de vida de la persona que acude a
 	        consulta a través de un cambio en su conducta, actitudes, pensamientos o afectos.</p>

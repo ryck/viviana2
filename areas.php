@@ -56,7 +56,7 @@
 
 			<section>
 				<article>
-					<h3 class="cabecera">¿En que podemos ayudarle?</h3>
+					<h3 class="cabecera">¿En qué podemos ayudarle?</h3>
 	        <p>Desde la psicología se pueden tratar un sinfín de problemáticas.</p>
 	        <p>Algunas de ellas son:</p>
 	

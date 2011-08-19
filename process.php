@@ -52,7 +52,7 @@ if( isset($_POST) ){
                       <p><strong>Mensaje: </strong> {$message} </p>
                       <p>IP: {$ipaddress} el {$date} a las {$time}</p>";
 
-        mail("info@ryck.me","Consulta via web",$emailbody,$headers);
+        mail("info@vivianavillamayor.com","Consulta via web",$emailbody,$headers);
 
     }
 
