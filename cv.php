@@ -30,9 +30,12 @@
 			</figure>
 		</div>	
 		<div class="twelve columns slogan offset-by-one">
-			<h1>Viviana C. Villamayor Fleitas</h1>
-			<h2>Licenciada en Psicología. Col. Nº G-4272</h2>
-			<h3><span><img src="img/75-phone.png" alt="fijo" /> 902 810 210</span><span><img src="img/32-iphone.png" alt="móvil" /> 622 484 945</span></h3>
+		  <hgroup>
+			  <h1>Viviana C. Villamayor Fleitas</h1>
+			  <h2>Licenciada en Psicología. Col. Nº G-4272</h2>
+			  <h2>Master en Psicología Clínica y de la Salud</h2>
+			  <h3><span><img src="img/75-phone.png" alt="fijo" /> 902 810 210</span><span><img src="img/32-iphone.png" alt="móvil" /> 622 484 945</span></h3>
+		  </hgroup>
 		</div>
 	</header>
 	
