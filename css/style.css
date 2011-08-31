@@ -581,6 +581,7 @@ background: linear-gradient(top, #63b6db 0%,#309dcf 100%); /* W3C */
 		border-radius: 3px 3px 3px 3px;
 		color: #FFFFFF;
 		padding: 0.2em .4em;
+		margin-top: 0;
 		line-height: 1.17em;
 		text-shadow: 1px 1px 1px #142767;
 		background-image: -webkit-gradient(

@@ -48,9 +48,9 @@
   <div class="container">
 	<header class="front row">
 		<div class="three columns" id="logo">
-			<figure>
+
 				<a href="http://vivianavillamayor.com"><img src="img/logo.png" alt="Viviana Villamayor" /></a>
-			</figure>
+
 		</div>	
 		<div class="twelve columns slogan offset-by-one">
 		  <hgroup>
