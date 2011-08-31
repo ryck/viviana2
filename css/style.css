@@ -11,7 +11,7 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 body { margin: 0; font-size: 13px; line-height: 1.231; }
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
-a { color: #00e; }
+a { color: #2670B8; }
 a:visited { color: #551a8b; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
@@ -842,6 +842,9 @@ background: linear-gradient(top, #63b6db 0%,#309dcf 100%); /* W3C */
     font-size: 0.8em;
     font-style: italic;
     text-align: right;
+}
+.pedir-cita {
+  width: 100%;
 }
   
 /* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */

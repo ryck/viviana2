@@ -90,21 +90,23 @@
 					<p>Desde la psicología y, en concreto, desde la psicoterapia, le ayudaremos a conocer la causa de dicho malestar, a saber lo que le ocurre para que pueda recibir un tratamiento adecuado y solucionar dichas dificultades, tanto las pasadas como las presentes y las futuras. </p>
 					
 					<p>Nuestro objetivo es que consiga un mayor bienestar y calidad de vida.</p>
-				</article>
-				<article class="domicilio">
-					<h3 class="cabecera">¿No puede desplazarse?</h3>
-					<p>Servicio a domicilio para aquellas personas que no puedan acudir a consulta. Contacte con nosotros a través del móvil o correo electrónico.</p>
-				</article>				
+				</article>			
 				
 			</section>
+			
 			<section  class="four columns omega">
+				<article class="cita">
+					<h3 class="cabecera">Concertar una cita</h3>
+					<p>Siga los pasos de nuestro <a href="http://registro.kaps.es/icita/loginKaps.aspx">asistente en línea</a> para concertar una cita y recibir atención personalizada.</p>
+
+				</article>		
 				<article class="promociones">
 					<h3 class="cabecera">Promociones</h3>
 					<ul>
 						<li>25% de descuento en la primera y segunda consulta.</li>
 						<li>Paquetes promocionales tanto individuales como familiares y/o grupales con un 20% de descuento.</li>
 					</ul>
-				</article>
+				</article>		
 				<article class="ubicacion">
 					<h3 class="cabecera">Ubicación</h3>
 					<aside>
