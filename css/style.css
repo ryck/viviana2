@@ -494,7 +494,7 @@ background: linear-gradient(top, #63b6db 0%,#309dcf 100%); /* W3C */
 
 	body {
 		background-color: #eee;
-		margin-top: 2em;
+		margin-top: 1em;
 		font-family: DroidSansRegular;
 	}
 	.container {
