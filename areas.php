@@ -41,11 +41,11 @@
 		<div class="three columns" id="sidebar">
 			<nav>
 				<ul>
-					<li><a href="home">Inicio</a></li>
-					<li><a href="terapia">Terapia</a></li>
-					<li><a class="active" href="areas">Áreas</a></li>
-					<li><a href="cv">Currículum</a></li>
-					<li><a href="contacto">Contacto</a></li>
+					<li><a href="home" title="Inicio">Inicio</a></li>
+					<li><a href="terapia" title="Terapia">Terapia</a></li>
+					<li><a class="active" href="areas"  title="Áreas">Áreas</a></li>
+					<li><a href="cv"  title="Curriculum Vitae">CV</a></li>
+					<li><a href="contacto"  title="Contacto">Contacto</a></li>
 				</ul>
 			</nav>
 			<aside>

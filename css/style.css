@@ -504,6 +504,9 @@ background: linear-gradient(top, #63b6db 0%,#309dcf 100%); /* W3C */
 	.content section {
 		font-size: 125%;
 	}
+	.content section {
+	  margin: 1em 0;
+	}
 	.first-letter {
 
 		 float: left;
@@ -882,7 +885,7 @@ input.placeholder-text, textarea.placeholder-text  {
   @media only screen and (min-width: 960px) {
     header h1 {
       font-family: DroidSansBold;
-      font-size: 3.5em;
+      font-size: 3em;
       margin: 0 0 .1em 0;
     }
 	  header h2 {
@@ -924,6 +927,20 @@ input.placeholder-text, textarea.placeholder-text  {
       text-align: center;
       margin: 0 0 1em 0;
     }
+	  #sidebar ul {
+
+	  }
+
+	  #sidebar li {
+      padding: 0.5em 0;
+      text-align: center;
+      width: 20%;
+      float: left;
+	  }  
+	  #sidebar ul li a {
+      font-size: 1.5em;
+	  }	    
+    
   }
 
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -935,10 +952,10 @@ input.placeholder-text, textarea.placeholder-text  {
     }
 	  header h2 {
 		  margin: 0;
-		  font-size: 1.5em;
+		  font-size: 1.3em;
 	  }
 	  header h3 {
-		  font-size: 2em;
+		  font-size: 1.8em;
 		  margin: .5em 0;
 	  }  
   }
@@ -947,17 +964,20 @@ input.placeholder-text, textarea.placeholder-text  {
   @media only screen and (max-width: 479px) {
     header h1 {
       font-family: DroidSansBold;
-      font-size: 1.5em;
+      font-size: 1.3em;
       margin: 0 0 .1em 0;
     }
 	  header h2 {
 		  margin: 0;
-		  font-size: 1.2em;
+		  font-size: 1em;
 	  }
 	  header h3 {
 		  font-size: 1.3em;
 		  margin: .5em 0;
-	  }      
+	  }    
+	  #sidebar ul li a {
+      font-size: 1.3em;
+	  }	 	    
   }
 
 
