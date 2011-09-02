@@ -865,7 +865,7 @@ input.placeholder-text, textarea.placeholder-text  {
     font-style:italic;
 }
 
-.vcard a.url, .vcard a.email,  .vcard span.country-name, .vcard div.tel {
+.vcard a.url, .vcard a.email,  .vcard span.country-name, .vcard div.tel, .vcard div.role {
   display: none;
 }
 /* ==|== non-semantic helper classes ======================================== */

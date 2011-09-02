@@ -88,13 +88,14 @@
               <span class="additional-name">C.</span>
               <span class="family-name">Villamayor Fleitas</span>
             </a>
+            <div class="role">Licenciada en Psicología. Col. Nº G-4272</div>
              <div class="org"><a href="http://kaps.es" class="kaps">KAPS</a></div>
              <a class="email" href="mailto:info@vivianavillamayor.com">info@vivianavillamayor.com</a>
              <div class="adr">
               <div class="street-address">Carretera Provincial, 12</div>
-              <span class="locality">Vigo</span>
-            , 
               <span class="postal-code">36204</span>
+            , 
+              <span class="locality">Vigo</span>
 
               <span class="country-name">Spain</span>
 
