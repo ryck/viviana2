@@ -499,10 +499,8 @@ background: linear-gradient(top, #63b6db 0%,#309dcf 100%); /* W3C */
 	}
 	.container {
 	}
-	.content {
-	}
-	.content section {
-		font-size: 125%;
+	.content  {
+		font-size: 1.3em;
 	}
 	.content section {
 	  margin: 1em 0;
@@ -977,7 +975,10 @@ input.placeholder-text, textarea.placeholder-text  {
 	  }    
 	  #sidebar ul li a {
       font-size: 1.3em;
-	  }	 	    
+	  }
+	 .content  {
+		font-size: 1.1em;
+	  }   
   }
 
 
