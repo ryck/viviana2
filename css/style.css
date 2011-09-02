@@ -981,6 +981,10 @@ input.placeholder-text, textarea.placeholder-text  {
 	  }
 	 .content  {
 		font-size: 1.1em;
+	  }
+	  #logo img {
+	    width: 61px;
+	    height: 59px;
 	  }   
   }
 
