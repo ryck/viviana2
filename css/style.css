@@ -939,7 +939,7 @@ input.placeholder-text, textarea.placeholder-text  {
       float: left;
 	  }  
 	  #sidebar ul li a {
-      font-size: 1.5em;
+      font-size: 1.3em;
 	  }	    
     
   }
@@ -977,7 +977,7 @@ input.placeholder-text, textarea.placeholder-text  {
 		  margin: .5em 0;
 	  }    
 	  #sidebar ul li a {
-      font-size: 1.3em;
+      font-size: 1em;
 	  }
 	 .content  {
 		font-size: 1.1em;
