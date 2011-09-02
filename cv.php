@@ -11,7 +11,7 @@
   <meta name="description" content="viviana c. villamayor fleitas, psicologa, vigo">
   <meta name="author" content="http://ryck.me/">
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
 
   <!-- CSS concatenated and minified via ant build script-->
   <link rel="stylesheet" href="css/style.css">
