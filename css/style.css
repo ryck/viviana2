@@ -865,6 +865,9 @@ input.placeholder-text, textarea.placeholder-text  {
     font-style:italic;
 }
 
+.vcard a.url, .vcard a.email,  .vcard span.country-name, .vcard div.tel {
+  display: none;
+}
 /* ==|== non-semantic helper classes ======================================== */
 .ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
 .ir br { display: none; }
