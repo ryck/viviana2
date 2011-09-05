@@ -1,38 +1,141 @@
 <!doctype html>
-<html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Page Not Found :(</title> 
-  <style>
-	  body { text-align: center;}
-	  h1 { font-size: 50px; text-align: center }
-	  span[frown] { transform: rotate(90deg); display:inline-block; color: #bbb; }
-	  body { font: 20px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999; text-shadow: 2px 2px 2px rgba(200, 200, 200, 0.5); }
-	  ::-moz-selection{ background:#FF5E99; color:#fff; }
-	  ::selection { background:#FF5E99; color:#fff; } 
-	  article {display:block; text-align: left; width: 500px; margin: 0 auto; }
-	  
-	  a { color: rgb(36, 109, 56); text-decoration:none; }
-	  a:hover { color: rgb(96, 73, 141) ; text-shadow: 2px 2px 2px rgba(36, 109, 56, 0.5); }
-  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Viviana Villamayor - Licenciada en Psicología</title>
+  <meta name="description" content="Especialista en psicología que ofrece consultas, terapia y tratamiento psicológico para todo tipo de problemas y trastornos en Vigo.">
+  <meta name="author" content="http://ryck.me/">
+
+  <meta content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- end CSS-->
+
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+<script type="text/javascript"
+    src="http://maps.googleapis.com/maps/api/js?sensor=false&language=es&region=ES">
+</script>
+<script type="text/javascript">
+  function initialize() {
+  
+    var myLatlng = new google.maps.LatLng(42.227736,-8.718976);
+    var myOptions = {
+      zoom: 14,
+      center: myLatlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    var map = new google.maps.Map(document.getElementById("mapa_ubicacion"), myOptions);
+    
+    var marker = new google.maps.Marker({
+    	position: myLatlng,
+        map: map,
+        title:"KAPS"
+    }); 
+
+  }    
+
+</script>  
 </head>
-<body>
-     <article>
-	  <h1>Not found <span frown>:(</span></h1>
-	   <div>
-	       <p>Sorry, but the page you were trying to view does not exist.</p>
-	       <p>It looks like this was the result of either:</p>
-	       <ul>
-		   <li>a mistyped address</li>
-		   <li>an out-of-date link</li>
-	       </ul>
-	   </div>
-	    
-	    <script>
-	    var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),
-		GOOG_FIXURL_SITE = location.host;
-	    </script>
-	    <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
-     </article>
+
+<body onload="initialize()">
+
+  <div class="container">
+	<header class="front row">
+		<div class="three columns" id="logo">
+
+				<a href="http://vivianavillamayor.com"><img src="img/logo.png" alt="Viviana Villamayor" /></a>
+
+		</div>	
+		<div class="twelve columns slogan offset-by-one">
+		  <hgroup>
+			  <h1>Viviana C. Villamayor Fleitas</h1>
+			  <h2>Licenciada en Psicología. Col. Nº G-4272</h2>
+			  <h2>Máster en Psicología Clínica y de la Salud</h2>
+			  <h3><span><img src="img/75-phone.png" alt="fijo" /> 902 810 210</span><span><img src="img/32-iphone.png" alt="móvil" /> 622 484 945</span></h3>
+		  </hgroup>
+		</div>
+	</header>
+	
+    <div id="main" role="main" class="clearfix">
+		<div class="three columns" id="sidebar">
+			<nav>
+				<ul>
+					<li><a class="active" href="home" title="Inicio">Inicio</a></li>
+					<li><a href="terapia" title="Terapia">Terapia</a></li>
+					<li><a href="areas"  title="Áreas">Áreas</a></li>
+					<li><a href="cv"  title="Curriculum Vitae">CV</a></li>
+					<li><a href="contacto"  title="Contacto">Contacto</a></li>
+				</ul>
+			</nav>
+			<aside>
+				<a href="http://www.facebook.com/pages/Viviana-Villamayor-Fleitas-Psicóloga/210887208961346"><img src="img/facebook.png" alt="Facebook" /></a>
+			</aside>
+		</div>	
+		
+		<div class="twelve columns content offset-by-one">
+
+		  <section class="twelve columns">
+				<article>
+  				<h3 class="cabecera">Página no encontrada</h3>
+  				
+          <p>Lo sentimos, pero la página que busca no esta disponible.</p>
+          <p>Esto puede ser debido a uno de los siguientes motivos:</p>
+          <ul>
+            <li>un error en la direccón de la página</li>
+            <li>un enlace desactualizado</li>
+          </ul>
+				</article>
+				<aside>
+				  <script>
+            var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),
+            GOOG_FIXURL_SITE = location.host;
+          </script>
+          <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
+	      </aside>
+		  </section>
+			
+			
+		</div>
+		
+			
+    </div>
+    <footer class="twelve columns pie offset-by-four">
+	    <br />
+	    <hr class="carved" />
+    	<a href="mailto:info@vivianavillamayor.com">info@vivianavillamayor.com</a> &mdash; T: 902 810 210 &mdash; M: 622 484 945
+
+    </footer>
+  </div> <!--! end of #container -->
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <!-- end scripts-->
+
+
+  <script> // Change UA-XXXXX-X to be your site's ID
+    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>
+
+
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
 </body>
 </html>
