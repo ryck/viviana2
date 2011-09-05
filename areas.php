@@ -7,8 +7,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Viviana Villamayor - Psicóloga - Áreas</title>
-  <meta name="description" content="viviana c. villamayor fleitas, psicologa, vigo">
+  <title>Viviana Villamayor - Áreas</title>
+  <meta name="description" content="Diferentes areas en las que nos especializamos.">
+  <meta name="keywords" content="psicología, psicologa, vigo, ansiedad, terapia sexual, trastornos del sueño, terapia de pareja, addiciones, transtornos de alimentación">
+  
   <meta name="author" content="http://ryck.me/">
 
   <meta content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
