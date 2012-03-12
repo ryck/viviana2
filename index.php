@@ -26,7 +26,7 @@
 <script type="text/javascript">
   function initialize() {
   
-    var myLatlng = new google.maps.LatLng(42.227736,-8.718976);
+    var myLatlng = new google.maps.LatLng(42.22389, -8.72516);
     var myOptions = {
       zoom: 14,
       center: myLatlng,
@@ -37,7 +37,7 @@
     var marker = new google.maps.Marker({
     	position: myLatlng,
         map: map,
-        title:"KAPS"
+        title:"Clínica SANAS"
     }); 
 
   }    
@@ -76,7 +76,7 @@
 				</ul>
 			</nav>
 			<aside>
-				<a href="http://www.facebook.com/pages/Viviana-Villamayor-Fleitas-Psicóloga/210887208961346"><img src="img/facebook.png" alt="Facebook" /></a>
+				<a href="http://www.facebook.com/profile.php?id=100002644827575"><img src="img/facebook.png" alt="Facebook" /></a>
 			</aside>
 		</div>	
 		
@@ -97,7 +97,7 @@
 			</section>
 			
 			<section  class="four columns omega">
-				<article class="cita">
+<!-- 				<article class="cita">
 					<h3 class="cabecera">Concertar una cita</h3>
 					<p>Siga los pasos de nuestro <a href="http://registro.kaps.es/icita/loginKaps.aspx">asistente en línea</a> para concertar una cita y recibir atención personalizada.</p>
 
@@ -108,7 +108,7 @@
 						<li>25% de descuento en la primera y segunda consulta.</li>
 						<li>Paquetes promocionales tanto individuales como familiares y/o grupales con un 20% de descuento.</li>
 					</ul>
-				</article>		
+				</article> -->		
 				<article class="ubicacion">
 					<h3 class="cabecera">Ubicación</h3>
 					<aside>
@@ -119,18 +119,18 @@
               <span class="family-name">Villamayor Fleitas</span>
             </a>
             <div class="role">Licenciada en Psicología. Col. Nº G-4272</div>
-             <div class="org"><a href="http://kaps.es" class="kaps">KAPS</a></div>
+             <div class="org"><a href="http://clinicasanas.es" class="kaps">Clínica SANAS</a></div>
              <a class="email" href="mailto:info@vivianavillamayor.com">info@vivianavillamayor.com</a>
              <div class="adr">
-              <div class="street-address">Carretera Provincial, 12</div>
-              <span class="postal-code">36204</span>
+              <div class="street-address">C/ Zamora, 65</div>
+              <span class="postal-code">36203</span>
             , 
               <span class="locality">Vigo</span>
 
               <span class="country-name">Spain</span>
 
              </div>
-             <div class="tel">622 484 945</div>
+             <div class="tel">986 11 00 40</div>
             </div>
 
 					</aside>
@@ -144,7 +144,7 @@
     <footer class="twelve columns pie offset-by-four">
 	    <br />
 	    <hr class="carved" />
-    	<a href="mailto:info@vivianavillamayor.com">info@vivianavillamayor.com</a> &mdash; T: 902 810 210 &mdash; M: 622 484 945
+    	<a href="mailto:info@vivianavillamayor.com">info@vivianavillamayor.com</a> &mdash; T: 986 110 040 &mdash; M: 622 484 945
 
     </footer>
   </div> <!--! end of #container -->

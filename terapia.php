@@ -51,7 +51,7 @@
 				</ul>
 			</nav>
 			<aside>
-				<a href="http://www.facebook.com/pages/Viviana-Villamayor-Fleitas-Psicóloga/210887208961346"><img src="img/facebook.png" alt="Facebook" /></a>
+				<a href="http://www.facebook.com/profile.php?id=100002644827575"><img src="img/facebook.png" alt="Facebook" /></a>
 			</aside>
 		</div>	
 		
@@ -78,7 +78,7 @@
     <footer class="twelve columns pie offset-by-four">
 	    <br />
 	    <hr class="carved" />
-    	<a href="mailto:info@vivianavillamayor.com">info@vivianavillamayor.com</a> &mdash; T: 902 810 210 &mdash; M: 622 484 945
+    	<a href="mailto:info@vivianavillamayor.com">info@vivianavillamayor.com</a> &mdash; T: 986 110 040 &mdash; M: 622 484 945
 
     </footer>
   </div> <!--! end of #container -->
