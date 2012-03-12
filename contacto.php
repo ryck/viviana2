@@ -26,7 +26,7 @@
 <script type="text/javascript">
   function initialize() {
   
-    var myLatlng = new google.maps.LatLng(42.227736,-8.718976);
+    var myLatlng = new google.maps.LatLng(42.22389, -8.72516);
     var myOptions = {
       zoom: 12,
       center: myLatlng,
@@ -57,7 +57,7 @@
 			  <h1>Viviana C. Villamayor Fleitas</h1>
 			  <h2>Licenciada en Psicología. Col. Nº G-4272</h2>
 			  <h2>Máster en Psicología Clínica y de la Salud</h2>
-			  <h3><span><img src="img/75-phone.png" alt="fijo" /> 902 810 210</span><span><img src="img/32-iphone.png" alt="móvil" /> 622 484 945</span></h3>
+        <h3><span><img src="img/75-phone.png" alt="fijo" /> 986 110 040</span><span><img src="img/32-iphone.png" alt="móvil" /> 622 484 945</span></h3>
 		  </hgroup>
 		</div>
 	</header>
